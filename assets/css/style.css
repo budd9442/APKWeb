@@ -336,7 +336,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   overflow: hidden;
   position: relative;
-  background-image: url("D:/m.png");
+  background-image: url("../img/banner.png");
   padding: 0;
 }
 
