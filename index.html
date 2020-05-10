@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+  
   <title>APK Thilakarathne Challenge Trophy</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
@@ -26,30 +26,28 @@
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  
+  <!--link type="text/css" href="assets/css/countdownStyle.css" rel="stylesheet"-->
+	<link type="text/css" href="assets/css/jquery.countdown.css?v=1.0.0.0" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.countdown.min.js?v=1.0.0.0"></script>
 
-  <!-- Template Main CSS File -->
+
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Selecao - v2.1.0
-  * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
-  
+
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
-    
-    <div class="container d-flex align-items-center">
+    <img height="120" width="120" src="assets/img/header/mcLogo_transparent.png"></img>
+    <img height="120" width="180" src="assets/img/header/mcasLogo_transparent.png" >
       
-      <img height="120" width="120" src="assets/img/header/mcLogo_transparent.png"></img>
-      <img height="120" width="180" src="assets/img/header/mcasLogo_transparent.png">
-      <div class="logo mr-auto">
+    <div class="container d-flex align-items-center">
+      <br><br>
 
-        
+      <div class="logo mr-auto" >
+
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -73,25 +71,42 @@
   
   <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
     <div id="heroCarousel" class="container carousel carousel-fade" data-ride="carousel">
-      <br><br>
+      
       <!-- Slide 1 -->
       <div class="carousel-item active">
         <div class="carousel-container">
-          <h2 class="animated fadeInDown">A.P.K. Thilakarathne Memorial Space Challenge </h2>
-          <br>
-          <br>
+          <br><br><br>
+          <h2 class="animated fadeInDown" >A.P.K. Thilakarathne Memorial Space Challenge </h2>
+
           <p class="animated fadeInUp"> the era of the sword and axe is nigh, the era of the wolf's blizzard. The Time of the White Chill and the White Light is nigh, the Time of Madness and the Time of Contempt: Tedd Deireádh, the Time of End.</p>
           <a href="https://witcher.fandom.com/wiki/Ithlinne%27s_Prophecy" class="btn-get-started animated fadeInUp scrollto">Learn More</a>
         </div>
        
         
       </div>
-
-
-
-
     </div>
+    <ul id="examle" style="color: rgb(255, 255, 255);">
 
+      <li><span class="days">00</span><p class="days_text" >Days</p></li>
+      <li class="seperator">:</li>
+      <li><span class="hours">00</span><p class="hours_text">Hours</p></li>
+      <li class="seperator">:</li>
+      <li><span class="minutes">00</span><p class="minutes_text">Minutes</p></li>
+      <li class="seperator">:</li>
+      <li><span class="seconds">00</span><p class="seconds_text">Seconds</p></li>
+    </ul>
+    <script type="text/javascript">
+      $('#examle').countdown({
+        date: '05/20/2020 19:49:00',
+        offset: +5.5,
+        day: 'Day',
+        days: 'Days'
+      }, function () {
+        alert('Event Started!');
+      });
+      
+    </script>
+    
     <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
       <defs>
         <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
@@ -108,6 +123,7 @@
     </svg>
 
   </section><!-- End Hero -->
+
 
   <main id="main">
 

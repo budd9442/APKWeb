@@ -81,8 +81,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled {
   background: rgba(88, 24, 29, 0.9);
-}
+  height: 60px;
 
+}
+#header.header-scrolled  img{
+  display: none;
+}
 #header .logo h1 {
   
   font-size: 28px;
@@ -101,8 +105,9 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 100px;
 }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -331,7 +336,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   overflow: hidden;
   position: relative;
-  background-image: url("C:/Users/Buddhika/Downloads/galaxy_nebula_blurring_stars_65152_1920x1080.jpg");
+  background-image: url("D:/m.png");
   padding: 0;
 }
 
@@ -342,7 +347,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   text-align: center;
   position: relative;
-  height: 75vh;
+  height: 54vh;
   padding-top: 60px;
 }
 
@@ -695,7 +700,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #2a2c39;
+  background: #aa3434;
   padding: 80px 0;
 }
 
