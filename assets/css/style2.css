@@ -2,7 +2,7 @@
 * Template Name: Selecao - v2.1.0
 * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
 * Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* License: https://bootstrapmade.brea/license/
 */
 
 /*--------------------------------------------------------------
@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(42, 44, 57, 0.9);
+  background: rgb(157, 40, 40);
 }
 
 #header.header-transparent {
@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(88, 24, 29, 0.9);
+  background: rgba(71, 15, 20, 0.9);
   height: 60px;
 
 }
@@ -1413,7 +1413,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  margin-top: 70px;
+  margin-top: 0px;
   background: #f4f5f7;
   min-height: 40px;
 }
@@ -1542,7 +1542,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #682E33;
+  background: #14151c;
   color: #fff;
   font-size: 14px;
   text-align: center;
@@ -1571,13 +1571,13 @@ section {
 }
 
 #footer .social-links a {
-  font-size: 30px;
+  font-size: 18px;
   display: inline-block;
-  background:transparent;
+  background: #ef6603;
   color: #fff;
   line-height: 1;
-  padding: 4px 0;
-  margin-right: 0px;
+  padding: 8px 0;
+  margin-right: 4px;
   border-radius: 50%;
   text-align: center;
   width: 36px;
@@ -1585,11 +1585,11 @@ section {
   transition: 0.3s;
 }
 
-/* #footer .social-links a:hover {
+#footer .social-links a:hover {
   background: #bd5102;
   color: #fff;
   text-decoration: none;
-} */
+}
 
 #footer .copyright {
   margin: 0 0 5px 0;
@@ -1597,11 +1597,4 @@ section {
 
 #footer .credits {
   font-size: 13px;
-}
-
-.gif_center {
-  display: block;
-  margin-left: 100;
-  margin-right: auto;
-  width: 50%;
 }
