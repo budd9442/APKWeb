@@ -73,9 +73,11 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   background: rgba(42, 44, 57, 0.9);
+
 }
 
 #header.header-transparent {
+  padding-top: .4cm;
   background: transparent;
 }
 
@@ -338,6 +340,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   background-image: url("../img/banner.png");
   padding: 0;
+
 }
 
 #hero .carousel-container {
