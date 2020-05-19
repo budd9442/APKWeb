@@ -83,7 +83,7 @@
            <p class="animated fadeInUp"> “The bright sun was extinguish'd, and the stars
               Did wander darkling in the eternal space.”
                 ― Lord Byron George Gordon</p>
-          <a href="#features" class="btn-get-started animated fadeInUp scrollto">Learn More</a>
+          <a href="#features" id="learnMore" class="btn-get-started animated fadeInUp scrollto">Learn More</a>
         </div>
        
         
@@ -101,7 +101,7 @@
     </ul>
     <script type="text/javascript">
       $('#examle').countdown({
-        date: '06/01/2020 00:00:00',
+        date: '05/01/2020 00:00:00',
         offset: +5.5,
         day: 'Day',
         days: 'Days'
@@ -109,7 +109,9 @@
         if (confirm("Preoceed to competiton page?")) {
           window.location.href = "portfolio-details.html";
         }
-        
+        var ctrl = document.getElementById("learnMore");
+        ctrl.setAttribute("href","https://google.lk");
+        ctrl.innerHTML= "To the Portal...";
       });
       
     </script>
@@ -148,8 +150,8 @@
         <div class="row content" data-aos="fade-up">
           <div class="col-lg-6">
             <p>
-              In the year of 2015 Maliyadeva College Astronomical Society stepped into the next level of astronomy by creating a historical milestone in school astronomy of Sri Lanka parallel to the APK Thilakarathne memorial quiz competition by introducing AUDAX. The first-ever overnight astronomy practical competition AUDAX is currently one of the most exhausting astronomy competitions in the island.</p>
-			       <p>With the current siruation of the COVID-19 outbreak we will not be able to host the overnight practical competetion as previous years.</p>
+              In the year 2015, Maliyadeva College Astronomical Society stepped into the next level of astronomy by creating a historical milestone in school astronomy of Sri Lanka parallel to the APK Thilakarathne memorial quiz competition by introducing AUDAX, The first-ever overnight practical astronomy competition. AUDAX is currently one of the most exhausting astronomy competitions on the island.
+             <p>With the current situation of the COVID-19 outbreak we will not be able to host the overnight practical competition as previous years.</p>
 			       <p>The APK Thilakarathne Memorial Space Challenge organized by Maliyadeva College Astronomical Society is happening as an online astronomy quiz this year on the 1st of June 2020.</p>
 			       <p>There are 2 categories this year.
             </p>
@@ -159,11 +161,8 @@
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
-            <p>
-             Didn't Register Yet? Use this link.
-            </p>
-            <a href="https://bit.ly/apkRegister" class="btn-learn-more">Register Here</a>
-            
+            <img src="assets/img/pic.jpg" width="500" height="500" ></img>
+
           </div>
           
         </div>
@@ -176,30 +175,25 @@
       <div class="container">
 
         <ul class="nav nav-tabs row d-flex">
-          <li class="nav-item col-3" data-aos="zoom-in">
+          <li class="nav-item col-4" data-aos="zoom-in">
             <a class="nav-link active show" data-toggle="tab" href="#tab-1">
               <i class="ri-number-1"></i>
               <h4 class="d-none d-lg-block">Sign Up for the Challenge</h4>
             </a>
           </li>
-          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
+          <li class="nav-item col-4" data-aos="zoom-in" data-aos-delay="100">
             <a class="nav-link" data-toggle="tab" href="#tab-2">
               <i class="ri-number-2"></i>
               <h4 class="d-none d-lg-block">Get Connected with Teammates</h4>
             </a>
           </li>
-          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
+          <li class="nav-item col-4" data-aos="zoom-in" data-aos-delay="200">
             <a class="nav-link" data-toggle="tab" href="#tab-3">
               <i class="ri-number-3"></i>
               <h4 class="d-none d-lg-block">Join the Portal</h4>
             </a>
           </li>
-          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
-            <a class="nav-link" data-toggle="tab" href="#tab-4">
-              <i class="ri-number-4"></i>
-              <h4 class="d-none d-lg-block">Submit Answers before deadline</h4>
-            </a>
-          </li>
+
         </ul>
 
         <div class="tab-content" data-aos="fade-up">
@@ -295,17 +289,16 @@
         <div class="row" >
           <div class="col-lg-5 col-md-6 mt-5 mt-lg-0" >
             <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200" >
-              <div class="icon"><img src="assets/img/audio_wave_512px.png" width="70" ></div>
+              <div class="icon"><i class="ri-mic-line" style="color: rgb(72, 213, 44);"  ></i></div>
               <h4 class="title"><a href="">Viva Round</a></h4>
               <p class="description">A participant per team will be selected randomly for a VIVA round in the middle of the quiz. The preferred medium of communication will be discussed prior to the competition.</p>
             </div>
           </div>
-	<div class="col-lg-5 col-md-6 mt-5 mt-lg-0" >
+	        <div class="col-lg-5 col-md-6 mt-5 mt-lg-0" >
             <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100" >
-              <div class="icon"><img src="assets/img/quiz.png" width="70" ></img>         </div>
+              <div class="icon"><i class="ri-survey-line" style="color: coral;"></i>      </div>
               <h4 class="title"><a href=""></a>Quiz</a></h4>
-              <p class="description">All the four members of the team should pariticipate in this round.<\p><p>This round will consist of following categories
-		</p>
+              <p class="description">All the four members of the team should pariticipate in the Quiz. This round will consist of following categories</p>
             </div>
           </div>
         </div>
