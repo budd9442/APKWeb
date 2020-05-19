@@ -1598,3 +1598,20 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+.column {
+  float: left;
+  width: 50%;
+  background-color: #646468;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tbcontainer {
+  margin:0 auto; /* this will center the page */
+  width:960px; /*  use your width here */
+}
