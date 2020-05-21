@@ -339,7 +339,10 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   position: relative;
   background-image: url("../img/banner-min_optimized.png");
+  background-;
   padding: 0;
+  background-repeat: no-repeat;
+  background-size: auto;
 
 }
 
