@@ -341,7 +341,7 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url("../img/banner-min_optimized.png");
   padding: 0;
   background-repeat: no-repeat;
-  background-size: auto 100%;
+  background-size: 180% 100%;
 
 }
 
