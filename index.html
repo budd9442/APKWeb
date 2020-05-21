@@ -94,7 +94,7 @@
            <p class="animated fadeInUp"> <h4 style="color: white;">Maliyadeva College Astronomical Society, Sri Lanka</h3></p>
           <a href="#about" id="learnMore" class="btn-get-started animated fadeInUp scrollto">Learn More</a>
         </div>
-       
+       <br><br>
         
       </div>
     </div>
@@ -111,10 +111,12 @@
     
     <script type="text/javascript">
     var d = new Date();
+    console.log(-d.getTimezoneOffset()/60);
 
       $('#countdown-timer').countdown({
         date: '06/01/2020 00:00:00',
-        offset: +d.getTimezoneOffset()/60,
+        offset: -d.getTimezoneOffset()/60,
+        
         day: 'Day',
         days: 'Days'
       }, function () {
@@ -125,6 +127,7 @@
         ctrl.setAttribute("href","https://google.lk");
         ctrl.innerHTML= "To the Portal...";
       });
+
       
 
 
